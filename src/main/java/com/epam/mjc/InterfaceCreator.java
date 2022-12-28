@@ -11,22 +11,27 @@ import java.util.function.Supplier;
 public class InterfaceCreator {
 
     public Predicate<List<String>> isValuesStartWithUpperCase() {
+
         throw new UnsupportedOperationException("You should implement this method.");
     }
 
     public Consumer<List<Integer>> addEvenValuesAtTheEnd() {
+
         throw new UnsupportedOperationException("You should implement this method.");
     }
 
     public Supplier<List<String>> filterCollection(List<String> values) {
+
         throw new UnsupportedOperationException("You should implement this method.");
     }
 
     public Function<List<String>, Map<String, Integer>> stringSize() {
+
         throw new UnsupportedOperationException("You should implement this method.");
     }
 
     public BiFunction<List<Integer>, List<Integer>, List<Integer>> concatList() {
+
         throw new UnsupportedOperationException("You should implement this method.");
     }
 }
